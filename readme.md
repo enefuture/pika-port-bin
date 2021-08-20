@@ -1,6 +1,11 @@
 # pika-port-bin
 
  *pika port binary files*
+ Pika迁移中的特殊命令
+
+ set a a ex 1000 ==> PKSETEXAT a 1639372592 aaaa
+
+ 需要特殊兼容这个命令，不然会丢失带有ttl的过期key
 
 ## Platform
 ---
